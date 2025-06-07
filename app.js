@@ -34,5 +34,9 @@ app.get('/contacts',(req,res)=>{
     res.status(200).json({message:"contacts page"});
 })
 
+app.get('/blog',(req,res)=>{
+    res.status(200).json({message:"contacts blog"});
+})
+
 
 module.exports=app;
