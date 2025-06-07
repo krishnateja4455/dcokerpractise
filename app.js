@@ -22,6 +22,10 @@ app.get('/about',(req,res)=>{
     res.status(200).json({message:"about page"});
 })
 
+app.get('/contact',(req,res)=>{
+    res.status(200).json({message:"contact page"});
+})
+
 
 
 module.exports=app;
