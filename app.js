@@ -26,6 +26,9 @@ app.get('/contact',(req,res)=>{
     res.status(200).json({message:"contact page"});
 })
 
+app.get('/info',(req,res)=>{
+    res.status(200).json({message:"info page"});
+})
 
 
 module.exports=app;
